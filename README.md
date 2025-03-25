@@ -7,8 +7,9 @@ Three different techniques were explored : minimax, deep learning with cnn, and 
 The chess engines are stored in ```/engines/``` based on the ```ChessEngine``` class in ```/engines/chess_engine.py```. 
 There you can find the different minimax used (```minimax_1.py``` being the simplest model and ```minimax_5.py``` the most complete but without the transposition tables because it was slower)
 
-The CNN models use .pth models stored in ```/cnn/models/```.
-For the CNN model, you need to put some data in ```/cnn/data```. This dataset was used to train the model https://database.nikonoel.fr/.
+The CNN models like ```deep_nn_3.py``` use .pth models stored in ```/cnn/models/```.
+For training the CNN, you need to put some data in ```/cnn/data```. This dataset was used to train the model https://database.nikonoel.fr/.
+You do not need to download the dataset if you don't want to train it.
 
 ```/stockfish/``` and ```/cfish/``` contain the compiled engines used to compare our models to competitions submissions.
 

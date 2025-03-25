@@ -1,0 +1,4 @@
+          Player       Rating  Number of Games  Number of Win  Number of Draw  Number of Lose  Win Rate
+0  minimax_3_d3  1247.637761               40              9              31               0  0.225000
+1  minimax_3_d2  1237.980213               39             14              16               9  0.358974
+2  minimax_3_d1  1123.984425               41              0              27              14  0.000000

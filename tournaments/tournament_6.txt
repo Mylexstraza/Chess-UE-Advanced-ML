@@ -1,0 +1,14 @@
+Game 0
+White vs Black: minimax_3_test_d1, minimax_3_test_d4
+Result: 1/2-1/2
+New Ratings: [1200.0, 1200.0]
+Moves: g1f3, b8c6, b1c3, e7e6, h1g1, g8f6, a1b1, f8b4, d2d4, e8f8, e1d2, f6e4, d2e1, e4f6, e1d2, f6e4, d2e1, e4f6, e1d2, f6e4, d2e1, e4f6, e1d2, f6e4, d2e1, e4f6
+Duration: 0.01, 4.50, 0.01, 4.15, 0.01, 6.83, 0.01, 10.40, 0.01, 28.08, 0.01, 19.52, 0.00, 21.90, 0.01, 0.01, 0.00, 0.01, 0.00, 0.01, 0.00, 0.01, 0.00, 0.00, 0.00, 0.01
+
+Game 1
+White vs Black: minimax_3_test_d4, minimax_3_test_d1
+Result: 1-0
+New Ratings: [1220.0, 1180.0]
+Moves: e2e3, e7e5, d1h5, d8h4, h5h4, d7d5, b1c3, c8g4, h4g4, b8d7, c3d5, f8b4, g4b4, g8e7, b4e7
+Duration: 5.27, 0.01, 19.24, 0.01, 35.57, 0.01, 21.03, 0.01, 27.56, 0.01, 28.38, 0.02, 39.72, 0.01, 29.71
+

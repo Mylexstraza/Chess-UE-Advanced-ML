@@ -1,0 +1,4 @@
+          Player       Rating  Number of Games  Number of Win  Number of Draw  Number of Lose  Win Rate
+0     stockfish  1491.302152               41             41               0               0  1.000000
+1  minimax_1_d2  1164.520685               43             17               2              24  0.395349
+2       deep_nn   917.573604               36              0               2              34  0.000000

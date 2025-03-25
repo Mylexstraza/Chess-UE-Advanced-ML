@@ -1,0 +1,12 @@
+Game 0
+White vs Black: minimax_1_d1, minimax_1_d2
+Result: 1/2-1/2
+Moves: g1h3, g8h6, h3g5, h8g8, g5h7, g8h8, h7f6, g7f6, h1g1, h8g8, g1h1, g8h8, h1g1, h8g8, g1h1, g8h8, h1g1, h8g8, g1h1, g8h8, h1g1, h8g8, g1h1, g8h8, h1g1
+Duration: 0.00, 0.03, 0.00, 0.03, 0.00, 0.02, 0.00, 0.00, 0.00, 0.02, 0.00, 0.03, 0.00, 0.03, 0.00, 0.04, 0.00, 0.03, 0.00, 0.02, 0.00, 0.03, 0.00, 0.02, 0.00
+
+Game 1
+White vs Black: minimax_1_d4, minimax_1_d1
+Result: 1/2-1/2
+Moves: g1h3, g8h6, f2f3, h8g8, h3f2, g8h8, f2g4, h6g4, f3g4, h8g8, h1g1, g8h8, g1h1, h8g8, h1g1, g8h8, g1h1, h8g8, h1g1, g8h8, g1h1, h8g8, h1g1, g8h8, g1h1, h8g8, h1g1
+Duration: 1.04, 0.00, 1.33, 0.00, 1.27, 0.00, 1.31, 0.00, 1.52, 0.00, 0.97, 0.00, 0.93, 0.00, 0.71, 0.00, 0.80, 0.00, 0.76, 0.00, 0.75, 0.00, 0.72, 0.00, 0.52, 0.00, 0.30
+

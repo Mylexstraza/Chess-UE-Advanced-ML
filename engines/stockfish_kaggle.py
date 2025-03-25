@@ -1,6 +1,6 @@
 from stockfish import Stockfish
 
-stockfish = Stockfish("./stockfish-windows-x86-64-avx2\stockfish\src\stockfish.exe")
+stockfish = Stockfish(".\stockfish\src\stockfish.exe")
 
 def next_move(obs):
     board = obs.board

@@ -1,0 +1,35 @@
+import psutil
+import time
+import subprocess
+import sys
+from memory_profiler import profile
+
+
+def monitor_program_memory(command, interval=1):
+    # Lancer le programme dans un processus séparé
+    process = subprocess.Popen([sys.executable] + command.split())
+    try:
+        while True:
+            # Vérifier si le processus est toujours en cours d'exécution
+            if process.poll() is not None:
+                print("Le programme s'est terminé.")
+                break
+
+            # Obtenir les informations sur la mémoire du processus
+            memory_info = psutil.Process(process.pid).memory_info()
+
+            # Afficher l'utilisation de la RAM
+            used_memory = memory_info.rss / (1024 ** 2)  # Convertir en Mo
+            print(f"Memory usage of process {process.pid}: {used_memory:.2f} MB")
+
+            # Attendre avant de rafraîchir
+            time.sleep(interval)
+
+    except KeyboardInterrupt:
+        print("Arrêt de la surveillance de la RAM.")
+        process.terminate()
+
+if __name__ == "__main__":
+    # Remplacez `your_program.py` par le chemin vers votre programme Python
+    program_command = "main.py"
+    monitor_program_memory(program_command)
